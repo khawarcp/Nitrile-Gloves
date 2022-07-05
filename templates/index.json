@@ -1,0 +1,366 @@
+{
+  "sections": {
+    "1656935355f0159299": {
+      "type": "index-home-banner",
+      "settings": {
+        "heading": "Nitrile GlovesMD",
+        "content": "NitrileGlovesMD.com was created in response to the increasing global demand of Nitrile and Vinyl Examination Gloves by healthcare, government and businesses across the nation.",
+        "image": "shopify:\/\/shop_images\/home-img.png",
+        "button_text": "SHOP NOW",
+        "button_link": "#"
+      }
+    },
+    "1657002420960be39f": {
+      "type": "index-logo-section",
+      "blocks": {
+        "88d651d2-acd3-403b-bcb5-d83052b66c76": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo5.png",
+            "link": ""
+          }
+        },
+        "5d6aac3d-6e2d-496f-88b5-59ed92f56e24": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo3.png",
+            "link": ""
+          }
+        },
+        "ffa71b9c-b8c0-4cee-88ef-d8d5e1fd860f": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo4.png",
+            "link": ""
+          }
+        },
+        "ac29bc8a-7ce0-404b-8b9d-2490c39ab440": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo7.png",
+            "link": ""
+          }
+        },
+        "198ecbff-b987-4dfc-9860-fbdebd3090e9": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo1.png",
+            "link": ""
+          }
+        },
+        "3e99829f-6a2b-46ba-b27c-ba12e13bb537": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo2.png",
+            "link": ""
+          }
+        },
+        "6f0acc56-d886-4f92-bcfd-c2f8552c833d": {
+          "type": "logos",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/partner-logo6.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "88d651d2-acd3-403b-bcb5-d83052b66c76",
+        "5d6aac3d-6e2d-496f-88b5-59ed92f56e24",
+        "ffa71b9c-b8c0-4cee-88ef-d8d5e1fd860f",
+        "ac29bc8a-7ce0-404b-8b9d-2490c39ab440",
+        "198ecbff-b987-4dfc-9860-fbdebd3090e9",
+        "3e99829f-6a2b-46ba-b27c-ba12e13bb537",
+        "6f0acc56-d886-4f92-bcfd-c2f8552c833d"
+      ],
+      "settings": {
+      }
+    },
+    "1657006686d863a11c": {
+      "type": "index-products",
+      "settings": {
+        "index_collection": "frontpage"
+      }
+    },
+    "16570137059ce34fea": {
+      "type": "testimonial-sec",
+      "blocks": {
+        "3192378b-36c8-43b0-8136-b95a51f2e5e9": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify:\/\/shop_images\/justin-img.png",
+            "customer_name": "Justin P",
+            "customer_post": "Marketing Coordinator",
+            "customer_review": "<p>\"The pandemic has caused the price of gloves to skyrocket over the past year and we have paid more than $30 per box due to our small quantity needs.  NitrileGlovesMD.com has cut our price by more than $10 a box!  We appreciate every bit of savings we can get!\"<\/p>",
+            "customer_rating": 5
+          }
+        },
+        "826f009f-c0c7-4e4b-9299-61c6e3dc9821": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify:\/\/shop_images\/monica-img.png",
+            "customer_name": "Monica E.",
+            "customer_post": "Medical Assistant",
+            "customer_review": "<p>\"We were expecting a shipment of gloves from another supplier, but when they didn’t come in as expected, our office was at risk of having to close.  We found NitrileGlovesMD.com, placed our order and the gloves were delivered to our office the next day. Thank you NitrileGlovesMD.com\"<\/p>",
+            "customer_rating": 5
+          }
+        },
+        "22ab8309-59be-4402-be02-90cc3c5cc2cf": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify:\/\/shop_images\/justin-img.png",
+            "customer_name": "Justin P",
+            "customer_post": "Marketing Coordinator",
+            "customer_review": "<p>\"The pandemic has caused the price of gloves to skyrocket over the past year and we have paid more than $30 per box due to our small quantity needs.  NitrileGlovesMD.com has cut our price by more than $10 a box!  We appreciate every bit of savings we can get!\"<\/p>",
+            "customer_rating": 5
+          }
+        },
+        "44b1d49a-595b-4a19-afa9-7eb3fcd03fd2": {
+          "type": "testimonial",
+          "settings": {
+            "customer_image": "shopify:\/\/shop_images\/monica-img.png",
+            "customer_name": "Monica E.",
+            "customer_post": "Medical Assistant",
+            "customer_review": "<p>\"We were expecting a shipment of gloves from another supplier, but when they didn’t come in as expected, our office was at risk of having to close.  We found NitrileGlovesMD.com, placed our order and the gloves were delivered to our office the next day. Thank you NitrileGlovesMD.com\"<\/p>",
+            "customer_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "3192378b-36c8-43b0-8136-b95a51f2e5e9",
+        "826f009f-c0c7-4e4b-9299-61c6e3dc9821",
+        "22ab8309-59be-4402-be02-90cc3c5cc2cf",
+        "44b1d49a-595b-4a19-afa9-7eb3fcd03fd2"
+      ],
+      "settings": {
+        "heading": "Testimonials"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "{{ shop.brand.cover_image }}",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1656935355f0159299",
+    "1657002420960be39f",
+    "1657006686d863a11c",
+    "16570137059ce34fea",
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
+  ]
+}

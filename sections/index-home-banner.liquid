@@ -1,0 +1,79 @@
+<section class="home-banner">
+  <div class="page-width">
+    <div class="home-banner-row">
+      <div class="home-text-col">
+        <div class="home-text-content">
+          <h1>{{ section.settings.heading }}</h1>
+          <p>{{ section.settings.content }}
+          </p>
+          <div class="home-text-btn">
+            {% if section.settings.button_text != blank %}
+            <a href="{{ section.settings.button_link}}" class="custom-site-btn">
+              {{ section.settings.button_text }}
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="home-img-col">
+        <div class="home-img">
+          {% if section.settings.image != blank  %}
+          <img src="{{ section.settings.image | img_url: 'master'}}" alt="{{ section.settings.image.alt }}" loading="lazy">
+          {% else %}
+          	{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% schema %}
+  {
+    "name": "Home banner",
+    "settings": 
+	[
+		{
+			"type" : "text",
+			"id" : "heading",
+			"label" : "Heading"
+		},
+		{
+			"type" : "textarea",
+			"id" : "content",
+			"label" : "Description"
+		},
+		{
+			"type" : "image_picker",
+			"id" : "image",
+			"label" : "Image"
+		},
+		{
+			"type" : "text",
+			"id" : "button_text",
+			"label" : "Button Text",
+			"default" : "SHOP NOW"
+		},
+		{
+			"type" : "url",
+			"id" : "button_link",
+			"label" : "Link"
+		}
+	],
+	"presets":
+	[
+		{
+			"name" : "Home banner",
+			"category" : "Custom Sections"
+		} 
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

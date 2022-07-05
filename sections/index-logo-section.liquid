@@ -1,0 +1,58 @@
+<section class="our-logos">
+  <div class="owl-carousel">
+    {% for block in section.blocks %}
+    {% if block.settings.logo != blank %}
+    <div class="item">
+      {% if block.settings.link != blank %}
+      <a href="{{ block.settings.link }}">
+      {% endif %}
+     	 <img src="{{ block.settings.logo | img_url : "master" }}" alt="{{ block.settings.logo.alt }}" loading="lazy">
+     {% if block.settings.link != blank %}
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Our Logos",
+    "settings": [],
+	"blocks":
+	[
+		{
+			"name" : "Logos",
+			"type" : "logos",
+			"settings" : 
+			[
+				{
+					"type" : "image_picker",
+					"id" : "logo",
+					"label" : "Image"
+				},
+				{
+					"type" : "url",
+					"id" : "link",
+					"label" : "Link"
+				}
+			]
+		}
+	],
+     "presets":
+	[
+		{
+			"name" : "Our Logos",
+			"category" : "Custom Sections"
+		} 
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,62 @@
+<section class="home-products-sec">
+  {% assign products = collections[section.settings.index_collection].products %}
+  {% for product in products %}
+  <div class="home-products-container">
+    <div class="page-width">
+      <div class="home-product-row">
+        <div class="home-product-img-col">
+          <div class="home-product-img">
+            {% if product.featured_image != blank %}
+            <img src="{{ product.featured_image | img_url : "master" }}" loading="lazy" alt="{{ product.title | escape }}">
+            {% else %}
+            	{{ 'product-1' | placeholder_svg_tag }}
+            {% endif %}
+          </div>
+        </div>
+        <div class="home-product-text-col">
+          <div class="home-product-content">
+            <h3> {{ product.title | escape }} </h3>
+            <h4>ONLY {%- render 'price', product: product, use_variant: true -%} PER BOX!*</h4>
+            <ul>
+              {% assign features = product.metafields.custom.features.value %}
+              {% for feature in features %}
+              <li> {{ feature }} </li>
+              {% endfor %}
+            </ul>
+            <div class="home-product-btn">
+              <a href="{{ product.url }}" class="custom-site-btn">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+  {
+    "name": "Home Products",
+    "settings": 
+	[
+		{
+			"type" : "collection",
+			"id" : "index_collection",
+			"label" : "Collection"
+		}
+	],
+     "presets":
+	[
+		{
+			"name" : "Our Home Products",
+			"category" : "Custom Sections"
+		} 
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

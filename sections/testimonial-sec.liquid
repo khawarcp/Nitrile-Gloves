@@ -1,0 +1,99 @@
+<section class="testimonials-sec">
+  <div class="page-width">
+    <h2>{{ section.settings.heading }}</h2>
+    <div class="owl-carousel">
+      {% for review in section.blocks %}
+      <div class="item">
+        <div class="testimonial-col">
+          <div class="rating">
+            <ul>
+              {% assign rating = review.settings.customer_rating  %}
+              {% for i in (1..rating) %}
+              <li><img src="https://cdn.shopify.com/s/files/1/0590/1719/9716/files/star-img.png?v=1657012754"></li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="testimonial-content">
+            <div class="testi-rte"> {{ review.settings.customer_review}}</div>
+            <div class="testi-img-autor">
+              <img src="{{ review.settings.customer_image | img_url : "master"}}" loading = "lazy" alt="{{ review.settings.customer_imagea.alt }}">
+              <div class="testi-author-text">
+                <h5> {{ review.settings.customer_name }} </h5>
+                <span> {{ review.settings.customer_post }} </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Testimonial section",
+    "settings": 
+	[
+        {
+            "type" : "text",
+            "id" : "heading",
+            "label" : "Heading",
+			"default" : "Testimonials"
+        }
+	],
+	"blocks":
+	[
+		{
+			"name" : "Testimonial",
+			"type" : "testimonial",
+			"settings" : 
+			[
+				{
+					"type" : "image_picker",
+					"id" : "customer_image",
+					"label" : "Image"
+				},
+				{
+					"type" : "text",
+					"id" : "customer_name",
+					"label" : "Name"
+				},
+				{
+					"type" : "text",
+					"id" : "customer_post",
+					"label" : "Post"
+				},
+				{
+					"type" : "richtext",
+					"id" : "customer_review",
+					"label" : "Review"
+				},
+				{
+					"type" : "range",
+					"id" : "customer_rating",
+					"label" : "Rating",
+					"min" : 1,
+					"max" : 5,
+					"step" : 1,
+					"default" : 5
+				}
+			]
+		}
+	],
+     "presets":
+	[
+		{
+			"name" : "Testimonial section",
+			"category" : "Custom Sections"
+		} 
+	]
+    
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
