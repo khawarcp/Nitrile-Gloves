@@ -341,6 +341,7 @@ h5, .h5 {
 
 .custom-site-btn.quick-add__submit {
     padding: 14px 30px;
+  margin-left : 10px;
 }
 
 .custom-site-btn.quick-add__submit button span {
