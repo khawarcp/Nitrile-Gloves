@@ -95,7 +95,7 @@
             </div>
           </div>
         {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} {% endif %}">
+          <div class="collection">
             <div class="loading-overlay gradient"></div>
     
             <ul id="product-grid" data-id="{{ section.id }}" class="
@@ -131,7 +131,13 @@
   </div>
 </div>
 
-
+<style>
+  {% if section.settings.filter_type == 'vertical' %} 
+      .home-products-container:nth-child(even) {
+        background-color: unset;
+      }
+  {% endif %}
+</style>
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",
