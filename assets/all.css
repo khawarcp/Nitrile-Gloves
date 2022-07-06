@@ -611,3 +611,21 @@ h6 {
     border: 0px;
     margin-top: 22px;
 }
+.testimonials-sec .owl-nav {
+    position: absolute;
+    top: -94px;
+    right: 0px;
+}
+
+.testimonials-sec .owl-nav button.owl-prev {
+    transform: rotate(180deg);
+    margin-right: 15px;
+}
+
+.testimonials-sec .owl-nav button img {
+    filter: grayscale(100%) invert(1);
+}
+
+.testimonials-sec .owl-nav button:hover img {
+    filter: brightness(100%) invert(0);
+}

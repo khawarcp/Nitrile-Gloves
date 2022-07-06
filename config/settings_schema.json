@@ -1051,7 +1051,7 @@
         "type": "text",
         "id": "social_linkedin_link",
         "label": "LinkedIn",
-        "info": "http://linkedin.com/shopify"
+        "info": "http:\/\/linkedin.com\/shopify"
       },
       {
         "type": "text",
