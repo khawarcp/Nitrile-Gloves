@@ -601,3 +601,12 @@ h6 {
 .newsletter-box input[type="email"]::placeholder {
     color: #A49292;
 }
+.newsletter-box .custom-site-btn {
+    cursor: pointer;
+    background-color: #D60912;
+    padding: 14px 30px;
+    display: block;
+    margin-left: auto;
+    border: 0px;
+    margin-top: 22px;
+}
