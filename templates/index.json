@@ -134,12 +134,18 @@
       "settings": {
         "heading": "Testimonials"
       }
+    },
+    "16571090553c0e9faa": {
+      "type": "index-newsletter-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "1656935355f0159299",
     "1657002420960be39f",
     "1657006686d863a11c",
-    "16570137059ce34fea"
+    "16570137059ce34fea",
+    "16571090553c0e9faa"
   ]
 }
