@@ -635,3 +635,42 @@ h6 {
 footer .form__message {
     color: white;
 }
+.our-purpose-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-purpose-text-col {
+    width: 40%;
+}
+
+.our-purpose {
+    position: relative;
+    padding: 60px 0px;
+}
+
+.our-purpose::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 70%;
+    background-color: #1A2B56;
+    z-index: -1;
+    height: 380px;
+}
+
+.our-purpose-text-width h3 {
+    color: #FFFFFF;
+}
+
+.our-purpose-text-width p {
+    color: #fff;
+}
+
+.our-purpose-img-col {
+    position: relative;
+    top: 41px;
+    width: 50%;
+}
