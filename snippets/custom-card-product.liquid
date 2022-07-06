@@ -2,8 +2,8 @@
       <div class="home-product-row">
         <div class="home-product-img-col">
           <div class="home-product-img">
-            {% if product.featured_image != blank %}
-            <img src="{{ product.featured_image | img_url : "master" }}" loading="lazy" alt="{{ product.title | escape }}">
+            {% if card_product.featured_image != blank %}
+            <img src="{{ card_product.featured_image | img_url : "master" }}" loading="lazy" alt="{{ card_product.title | escape }}">
             {% else %}
             	{{ 'product-1' | placeholder_svg_tag }}
             {% endif %}
@@ -11,7 +11,7 @@
         </div>
         <div class="home-product-text-col">
           <div class="home-product-content">
-            <h3> {{ product.title | escape }} </h3>
+            <h3> {{ card_product.title | escape }} </h3>
             <h4>ONLY {%- render 'price', product: product, use_variant: true -%} PER BOX!*</h4>
             <ul>
               {% assign features = product.metafields.custom.features.value %}
@@ -20,7 +20,7 @@
               {% endfor %}
             </ul>
             <div class="home-product-btn">
-              <a href="{{ product.url }}" class="custom-site-btn">SHOP NOW</a>
+              <a href="{{ card_product.url }}" class="custom-site-btn">SHOP NOW</a>
             </div>
           </div>
         </div>
