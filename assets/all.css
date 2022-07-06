@@ -338,3 +338,11 @@ h5, .h5 {
 .product-btn__wrapper .quick-add {
     margin-bottom: 0;
 }
+
+.custom-site-btn.quick-add__submit {
+    padding: 14px 30px;
+}
+
+.custom-site-btn.quick-add__submit button span {
+    font-size: 16px;
+}
