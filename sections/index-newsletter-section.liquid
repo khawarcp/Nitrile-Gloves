@@ -2,9 +2,10 @@
   <div class="page-width">
     <div class="newsletter-email-row">
       <h2> {{ section.settings.heading }} </h2>
-      {% form 'customer' %}
-      <input type="hidden" name="contact[tags]" value="newsletter-section">
+      
       <div class="newsletter-box">
+        {% form 'customer' %}
+        <input type="hidden" name="contact[tags]" value="newsletter-section">
         <input type="email" placeholder="Enter your Email" name="contact[email]" value="{{ form.email }}"
         aria-required="true"
         autocorrect="off"
@@ -26,8 +27,9 @@
           <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
         {%- endif -%}
         <input type="submit" value="SUBSCRIBE" class="custom-site-btn">
+        {% endform %}
       </div>
-      {% endform %}
+      
     </div>
   </div>
 </section>
