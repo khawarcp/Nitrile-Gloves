@@ -366,4 +366,5 @@ h5, .h5 {
     background-position: center;
     height: 49vh;
     padding: 80px 0;
+    content: none;
 }
