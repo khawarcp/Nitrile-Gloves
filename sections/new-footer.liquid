@@ -1,7 +1,13 @@
 <footer>
   <div class="page-width">
     <div class="footer-logo">
-      <a href="{{ routes.root_url }}"><img loading="lazy" alt="{{ shop.name }}" src="{{ section.settings.logo | img_url: 'master' }}"></a>
+      <a href="{{ routes.root_url }}">
+        {% if section.settings.logo != blank %}
+        <img loading="lazy" alt="{{ shop.name }}" src="{{ section.settings.logo | img_url: 'master' }}">
+        {% else %}
+          <h1> {{ shop.name }} </h1>
+        {% endif %}
+      </a>
     </div>
     <div class="footer-nav">
       <ul>
@@ -62,18 +68,26 @@
       <div class="contact-info-col">
         <h6>{{ section.settings.contact_info_heading }}</h6>
         <ul>
+          {% if section.settings.phone_number != blank %}
           <li>
             <h6>{{ section.settings.phone_text }}</h6>
             <a href="tel:{{ section.settings.phone_number }}">{{ section.settings.phone_number }}</a>
           </li>
+          {% endif %}
+
+          {% if section.settings.email_address != blank %}
           <li>
             <h6>{{ section.settings.email_text }}</h6>
             <a href="mailto:{{ section.settings.email_address }}">{{ section.settings.email_address }}</a>
           </li>
+          {% endif %}
+          
+          {% if section.settings.office_address != blank %}
           <li>
             <h6>{{ section.settings.office_text }}</h6>
             <a href="{{ section.settings.office_address }}">{{ section.settings.office_address }}</a>
           </li>
+          {% endif %}
         </ul>
       </div>
     </div>
