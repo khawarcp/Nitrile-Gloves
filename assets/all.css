@@ -355,6 +355,6 @@ h5, .h5 {
 
 .product-btn__wrapper .quick-add__submit span {
     font-size: 16px;
-    color: white;
+    color: #000;
     text-transform: uppercase;
 }
