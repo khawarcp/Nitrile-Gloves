@@ -565,3 +565,49 @@ h6 {
     outline: none;
     box-shadow: none;
 }
+.newsletter-email-row {
+    display: flex;
+    background-color: #121212;
+    border-radius: 40px;
+    padding: 60px 60px 60px 40px;
+    justify-content: space-between;
+}
+
+.newsletter-sec {
+    padding: 80px 0px;
+    /* border-radius: 40px; */
+}
+
+.newsletter-email-row h2 {
+    width: 55%;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.newsletter-box {
+    width: 40%;
+    margin-top: 15px;
+}
+
+.newsletter-box input[type="email"] {
+    background-color: #F4F4F4;
+    color: #A49292;
+    font-weight: 500;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0px;
+}
+
+.newsletter-box input[type="email"]::placeholder {
+    color: #A49292;
+}
+.newsletter-box .custom-site-btn {
+    cursor: pointer;
+    background-color: #D60912;
+    padding: 14px 30px;
+    display: block;
+    margin-left: auto;
+    border: 0px;
+    margin-top: 22px;
+}
