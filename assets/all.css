@@ -629,3 +629,6 @@ h6 {
 .testimonials-sec .owl-nav button:hover img {
     filter: brightness(100%) invert(0);
 }
+.header__heading-link {
+    width: 30%;
+}
