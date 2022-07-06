@@ -519,3 +519,49 @@ h6 {
     background-color: #D60912;
     border-color: transparent;
 }
+.contact-info-col h6 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.contact-info-col ul li h6 {
+    margin-bottom: 10px;
+}
+
+.contact-info-col ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info-col ul li {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.contact-info-col ul li a {
+    color: rgb(255 255 255 / 70%);
+    font-weight: 300;
+    font-family: var(--font-body-family);
+}
+
+.contact-info-col ul li:last-child {
+    width: 100%;
+}
+
+.copywrite-div p {
+    margin: 0;
+    color: rgb(255 255 255 / 70%);
+    font-size: 14px;
+}
+
+.copywrite-div {
+    border-top: 1px solid #1D1D1D;
+    padding: 10px 0px;
+}
+
+*:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
