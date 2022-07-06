@@ -1049,6 +1049,12 @@
       },
       {
         "type": "text",
+        "id": "social_linkedin_link",
+        "label": "LinkedIn",
+        "info": "http://linkedin.com/shopify"
+      },
+      {
+        "type": "text",
         "id": "social_instagram_link",
         "label": "t:settings_schema.social-media.settings.social_instagram_link.label",
         "info": "t:settings_schema.social-media.settings.social_instagram_link.info"
