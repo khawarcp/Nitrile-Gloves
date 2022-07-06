@@ -587,6 +587,7 @@ h6 {
 
 .newsletter-box {
     width: 40%;
+    margin-top: 15px;
 }
 
 .newsletter-box input[type="email"] {
