@@ -7,13 +7,13 @@
   </div>
 </section>
 
+{%- if section.settings.show_collection_description -%}
 <section class="shop-description">
   <div class="page-width">
-    {%- if section.settings.show_collection_description -%}
       <div class="collection-hero__description rte">{{ collection.description }}</div>
-    {%- endif -%}
   </div>
 </section>
+{%- endif -%}
 
 {% schema %}
 {
