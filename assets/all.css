@@ -483,3 +483,8 @@ h6 {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+.shop-description .collection-hero__description.rte {
+    color: #000;
+    font-family: 'Lato';
+    margin: 30px 0;
+}
