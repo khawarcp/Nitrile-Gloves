@@ -12,9 +12,9 @@
         <div class="home-product-text-col">
           <div class="home-product-content">
             <h3> {{ card_product.title | escape }} </h3>
-            <h4>ONLY {%- render 'price', product: card_product, use_variant: true -%} PER BOX!*</h4>
+            <h4>ONLY {%- render 'price', product: card_product -%} PER BOX!*</h4>
             <ul>
-              {% assign features = product.metafields.custom.features.value %}
+              {% assign features = card_product.metafields.custom.features.value %}
               {% for feature in features %}
               <li> {{ feature }} </li>
               {% endfor %}
