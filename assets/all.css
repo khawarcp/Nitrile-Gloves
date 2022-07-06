@@ -704,3 +704,11 @@ footer .form__message {
     margin-left: 20px;
     margin-bottom: 10px;
 }
+.glove-shortage-img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.glove-shortage-list-col.glove-shortage-list-img-col {
+    padding: 0px 20px;
+}
