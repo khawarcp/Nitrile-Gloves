@@ -1,17 +1,32 @@
 <section class="home-banner shop-page-banner" style="background-image: url('https://cdn.shopify.com/s/files/1/0590/1719/9716/files/shop-banner.png?v=1657099873');">
   <div class="page-width">
     <div class="shop-content">
-        <h1>Products</h1>
+        <h1>{{ collection.title }}</h1>
         </div>
     </div>
   </div>
 </section>
 
+{%- if section.settings.show_collection_description -%}
+  <div class="collection-hero__description rte">{{ collection.description }}</div>
+{%- endif -%}
+
 {% schema %}
 {
-    "name": "banner",
-    "settings": [
-        
+    "name": "Banner",
+    "settings":
+    [
+       {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image",
+       },    
+      {
+        "type": "checkbox",
+        "id": "show_collection_description",
+        "label": "Show Collection Description",
+        "default": "false"
+      },
     ]
 }
 {% endschema %}
