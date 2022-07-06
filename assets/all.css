@@ -674,3 +674,6 @@ footer .form__message {
     top: 41px;
     width: 50%;
 }
+.newsletter-box .form__message {
+    color: #fff;
+}
