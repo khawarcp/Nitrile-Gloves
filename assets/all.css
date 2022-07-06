@@ -387,3 +387,53 @@ h5, .h5 {
 footer {
     background-color: #1A2B56;
 }
+.footer-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-nav {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 10px 0px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav ul li a {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    letter-spacing: 0.06em;
+}
+
+.newsletter-contact-info-flex {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-col h6 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.newsletter-col {
+    width: 40%;
+}
+
+.contact-info-col {
+    width: 40%;
+}
+
+.newsletter-col p {
+    color: #FFFFFF;
+    max-width: 400px;
+}
