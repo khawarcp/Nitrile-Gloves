@@ -328,3 +328,13 @@ h5, .h5 {
     font-weight: 600;
     font-size: 24px;
 }
+
+
+.product-btn__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.product-btn__wrapper .quick-add {
+    margin-bottom: 0;
+}
