@@ -29,7 +29,7 @@ $('.testimonials-sec .owl-carousel').owlCarousel({
     margin: 15,
     dots: false,
     nav: true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 2000,
     smartSpeed: 800,
     thumbs: false,
