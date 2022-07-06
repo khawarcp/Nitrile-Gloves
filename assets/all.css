@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     background-color: transparent;
 }
-body {
+body.template-index {
     margin-top: 88px;
 }
 .home-text-content p {
