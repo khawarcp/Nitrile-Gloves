@@ -85,8 +85,9 @@
     "accent_icons": "text",
     "social_twitter_link": "",
     "social_facebook_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_linkedin_link": "http:\/\/linkedin.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -189,6 +190,22 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "new-footer": {
+        "type": "new-footer",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/footer-logo_e4d211b5-c77d-41dc-8cf7-530a53499f34.png",
+          "footer_menu": "footer",
+          "newsletter_heading": "newsletter",
+          "newsletter_subheading": "Subscribe to our sales newsletter to stay up to date with our latest products & services.",
+          "contact_info_heading": "Contact Info",
+          "phone_text": "Phone",
+          "phone_number": "(850) 699-1600",
+          "email_text": "Email Address",
+          "email_address": "Joe@winkelerandassociates.com",
+          "office_text": "Office",
+          "office_address": "981 US 98 East, Suite 3-164 Destin, Florida 32541"
         }
       }
     },
