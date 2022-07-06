@@ -386,6 +386,7 @@ h5, .h5 {
 }
 footer {
     background-color: #1A2B56;
+    padding-top: 50px;
 }
 .footer-logo {
     text-align: center;
