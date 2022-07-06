@@ -368,3 +368,7 @@ h5, .h5 {
     padding: 80px 0;
     content: none;
 }
+
+.home-banner.shop-page-banner::before {
+    content: none;
+}
