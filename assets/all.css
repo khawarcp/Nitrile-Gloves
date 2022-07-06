@@ -339,7 +339,7 @@ h5, .h5 {
     margin-bottom: 0;
 }
 
-.quick-add__submit {
+.product-btn__wrapper .quick-add__submit {
     padding: 14px 30px;
   margin-left : 10px;
     box-shadow: 8px 8px 57px #0000003d;
@@ -352,7 +352,11 @@ h5, .h5 {
 }
 
 
-.quick-add__submit span {
+.product-btn__wrapper .button:after{
+	box-shadow : none;
+}
+
+.product-btn__wrapper .quick-add__submit span {
     font-size: 16px;
     color: white;
     text-transform: uppercase;
