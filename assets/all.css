@@ -342,7 +342,15 @@ h5, .h5 {
 .quick-add__submit {
     padding: 14px 30px;
   margin-left : 10px;
+    box-shadow: 8px 8px 57px #0000003d;
+    border-radius: 0 0 20px;
+    padding: 14px 30px;
+    gap: 10px;
+    color: #fff;
+    font-weight: 500;
+    color: White !important;
 }
+
 
 .quick-add__submit span {
     font-size: 16px;
