@@ -339,12 +339,12 @@ h5, .h5 {
     margin-bottom: 0;
 }
 
-.custom-site-btn.quick-add__submit {
+.quick-add__submit {
     padding: 14px 30px;
   margin-left : 10px;
 }
 
-.custom-site-btn.quick-add__submit span {
+.quick-add__submit span {
     font-size: 16px;
     color: white;
     text-transform: uppercase;
