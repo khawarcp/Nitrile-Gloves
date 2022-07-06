@@ -19,7 +19,7 @@
   <div class="home-product-img-col">
     <div class="home-product-img">
       {% if card_product.featured_image != blank %}
-      <img src="{{ card_product.featured_image | img_url : "master" }}" loading="lazy" alt="{{ card_product.title | escape }}">
+      <img src="{{ card_product.featured_image | img_url : "master" }}" {% unless lazy_load == false %}loading="lazy"{% endunless %} alt="{{ card_product.title | escape }}">
       {% else %}
       {{ 'product-1' | placeholder_svg_tag }}
       {% endif %}
