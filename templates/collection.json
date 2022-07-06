@@ -4,7 +4,7 @@
       "type": "custom-collection-banner",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/shop-banner.png",
-        "show_collection_description": true
+        "show_collection_description": false
       }
     },
     "product-grid": {
