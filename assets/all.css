@@ -371,3 +371,16 @@ h5, .h5 {
 .home-banner.shop-page-banner::before {
     content: none;
 }
+.home-banner.shop-page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-banner.shop-page-banner h1 {
+    margin: 0px;
+}
+
+.home-banner.shop-page-banner h1 {
+    margin-top: 80px;
+}
