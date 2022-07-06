@@ -677,3 +677,30 @@ footer .form__message {
 .newsletter-box .form__message {
     color: #fff;
 }
+.glove-shortage-row {
+    display: flex;
+}
+
+.glove-shortage-list-col {
+    width: 45%;
+    padding-right: 30px;
+}
+
+.glove-shortage-list-col.glove-shortage-list-img-col {
+    width: 55%;
+    padding: 0px 0px;
+}
+
+.glove-shortage-list-col h3 {
+    max-width: 415px;
+}
+
+.glove-shortage-img img {
+    margin: auto;
+}
+
+.glove-shortage-list-col ul li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
