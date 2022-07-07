@@ -4,9 +4,22 @@
       "type": "about-banner",
       "settings": {
       }
+    },
+    "purpose": {
+      "type": "about-purpose"
+    },
+    "shortage": {
+      "type": "about-shortage"
+    },
+    "buy-slider":{
+      "type": "about-buy-slider"
     }
+    
   },
   "order": [
-    "main"
+    "main",
+    "purpose",
+    "shortage",
+    "buy-slider"
   ]
 }

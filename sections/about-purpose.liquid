@@ -1,15 +1,40 @@
 <section class="our-purpose">
-    <div class="page-width">
-      <div class="our-purpose-row">
-        <div class="our-purpose-text-col">
-          <div class="our-purpose-text-width">
-          <h3>Our Purpose</h3>
-          <p>NitrileGlovesMD.com was created in response to the increasing global demand of Nitrile and Vinyl Examination Gloves by healthcare, government and businesses across the nation.  With over 30 years in manufacturing and international sourcing, our global team of professionals has secured a consistent and reliable supply of gloves able to serve both large and small quantity clients. </p>
-            </div>
-          </div>
-          <div class="our-purpose-img-col">
-            <img src="https://cdn.shopify.com/s/files/1/0590/1719/9716/files/our-purpose-img.png?v=1657112554">
-          </div>
+<div class="page-width">
+    <div class="our-purpose-row">
+    <div class="our-purpose-text-col">
+        <div class="our-purpose-text-width">
+        <h3> {{ section.settings.title }} </h3>
+        <p> {{ section.settings.info }} </p>
+        </div>
+        </div>
+        <div class="our-purpose-img-col">
+        <img alt="{{ section.settings.image.alt }}" loading="lazy" src="{{ section.settings.image | img_url: 'master' }}">
         </div>
     </div>
-  </section>
+</div>
+</section>
+
+{% schema %}
+{
+    "name": "Purpose",
+    "settings" :
+    [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "info",
+            "label": "Description"
+        }
+    
+    ]
+}
+{% endschema %}
