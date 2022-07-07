@@ -991,3 +991,7 @@ footer .form__message {
     width: 100%;
     text-align: right;
 }
+section.custom-map iframe {
+    width: 100%;
+    display: block;
+}
