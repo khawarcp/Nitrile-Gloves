@@ -1,30 +1,40 @@
 
 <section class="get-in-touch">
   <div class="page-width">
-    <h2>Get In Touch</h2>
+    <h2> {{ section.settings.heading }} </h2>
     <div class="get-in-touch-form">
-      <form>
+      {%- form 'contact', id: 'ContactForm' -%}
         <div class="get-in-touch-flex">
           <div class="cus-input-container">
-            <input type="text" name="Fname" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="First Name">
+            <input type="text" name="contact[first_name]" value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.name }}{% endif %}" size="40" placeholder="First Name">
           </div>
           <div class="cus-input-container">
-            <input type="text" name="Lname" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Last Name">
+            <input type="text" name="contact[last_name]" value="{% if form.lastt_name %}{{ form.lastt_name }}{% endif %}" size="40" placeholder="Last Name">
           </div>
           <div class="cus-input-container">
-            <input type="email" name="Email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your Email">
+            <input type="email" name="Email" value="" size="40" placeholder="Your Email" id="ContactForm-email" name="contact[email]" autocapitalize="off"  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"             aria-required="true"
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="ContactForm-email-error"
+            {% endif %}>
+            {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</span>
+            </small>
+          {%- endif -%}
+          </div>
+          <div class="cus-input-container">            
+            <input type="tel" id="ContactForm-phone" autocomplete="tel" name="contact[phone]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"  placeholder="Phone Number">
           </div>
           <div class="cus-input-container">
-            <input type="tel" name="PhoneNumber" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone Number">
-          </div>
-          <div class="cus-input-container">
-            <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+            <textarea name="contact[body]" cols="40" rows="10" id="ContactForm-body" placeholder="Message">{{- form.body -}}</textarea>
           </div>
           <div class="input-container-submit">
             <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit custom-site-btn">
           </div>
         </div>
-      </form>
+        {%- endform -%}
     </div>
   </div>
 </section>
@@ -35,7 +45,7 @@
 
 
 
-{% comment %}
+
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -129,7 +139,7 @@
     {%- endform -%}
   </div>
 </div>
-{% endcomment %}
+
 {% schema %}
 {
   "name": "t:sections.contact-form.name",
@@ -142,78 +152,12 @@
       "default": "Contact form",
       "label": "Heading"
     },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
+   {
+    "type": "html",
+    "id": "map",
+    "label": "Google Map"
+   }
+  
   ],
   "presets": [
     {
