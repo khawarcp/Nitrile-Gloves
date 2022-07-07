@@ -1269,3 +1269,11 @@ button.tablinks {
 .description-content {
     padding: 50px 0px;
 }
+.description-content ul li {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.description-content ul {
+    list-style-type: disc;
+}
