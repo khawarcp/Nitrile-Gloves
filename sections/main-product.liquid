@@ -505,7 +505,22 @@
       </div>
     </div>
   </div>
+    <section class="description-reviews-sec">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'description')">Description</button>
+        <button class="tablinks" onclick="openCity(event, 'reviews')">Reviews</button>
+      </div>
 
+      <div id="description" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <div id="reviews" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p> 
+      </div>
+    </section>
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
