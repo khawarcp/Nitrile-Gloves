@@ -789,3 +789,7 @@ footer .form__message {
 .why-buy-slider-content .owl-nav button:hover img {
     filter: brightness(100%) invert(0);
 }
+.why-slider-text p {
+    margin-bottom: 0px;
+    min-height: 165px;
+}
