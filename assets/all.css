@@ -995,3 +995,10 @@ section.custom-map iframe {
     width: 100%;
     display: block;
 }
+body.gradient.template-product {
+    margin-top: 88px;
+}
+
+section#MainProduct-template--14990704902244__main {
+    padding: 80px 0px;
+}
