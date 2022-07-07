@@ -1262,6 +1262,9 @@ button.tablinks {
 button.tablinks {
     padding: 15px 30px;
 }
-.product {
+.product. {
+    margin: auto;
+}
+.product--thumbnail_slider {
     margin: auto;
 }
