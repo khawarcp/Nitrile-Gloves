@@ -3,6 +3,14 @@
     "main": {
       "type": "contact-details",
       "settings": {
+        "contact_info_heading": "Contact Us",
+        "location_text": "Location",
+        "location_address": "29003 Avenue Sherman, Valencia, CA 91355",
+        "email_text": "Email US",
+        "email_address": "info@nitrileglovesmd.com",
+        "phone_text": "Call US",
+        "phone_number": "855.773.1650",
+        "image": "shopify:\/\/shop_images\/contact-img.png"
       }
     },
     "form": {
