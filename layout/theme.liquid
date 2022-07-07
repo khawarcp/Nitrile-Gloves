@@ -231,6 +231,10 @@
       {{ content_for_layout }}
     </main>
 
+    {% if template contains 'index' or template contains 'collection' or template contains 'product' or request.page_tage == 'about' %}
+    {% section 'index-newsletter-section' %}
+    {% endif %}
+
     {% section 'new-footer' %}
 
     <ul hidden>
