@@ -922,3 +922,67 @@ footer .form__message {
 .home-banner.shop-page-banner h1 {
     text-transform: uppercase;
 }
+.get-in-touch {
+    background-color: #1A2B56;
+    padding: 60px 0px;
+}
+
+.get-in-touch h2 {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.get-in-touch-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cus-input-container {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.cus-input-container textarea,.cus-input-container input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #F2F2F2;
+    outline: 0px;
+    resize: none;
+    padding: 10px 0px 12px;
+    min-height: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+.cus-input-container:nth-child(5) {
+    width: 65%;
+}
+.checkbox-container-col {
+    margin-top: 30px;
+}
+
+.cus-input-container input::placeholder {
+    color: #F2F2F2;
+}
+
+.get-in-touch-form {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.cus-input-container textarea::placeholder {
+    color: #F2F2F2;
+}
+.cus-input-container textarea, .cus-input-container input {
+    height: 36px;
+    min-height: auto;
+    padding: 5px 0px;
+    font-family: 'Lato';
+}
+
+.input-container-submit input {
+    background-color: #D60912;
+    border: 0px;
+}
