@@ -712,3 +712,7 @@ footer .form__message {
 .glove-shortage-list-col.glove-shortage-list-img-col {
     padding: 0px 20px;
 }
+
+.cart-count-bubble span {
+    color: white;
+}
