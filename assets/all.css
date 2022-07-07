@@ -1197,3 +1197,6 @@ quantity-input.quantity button svg path {
 .shopify-payment-button__button::after {
     display: none;
 }
+.shopify-payment-button__button {
+    text-transform: uppercase;
+}
