@@ -985,6 +985,7 @@ footer .form__message {
 .input-container-submit input {
     background-color: #D60912;
     border: 0px;
+    cursor:pointer;
 }
 .input-container-submit {
     width: 100%;
