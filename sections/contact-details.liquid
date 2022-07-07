@@ -1,0 +1,103 @@
+
+<section class="cus-contact-sec">
+    <div class="page-width">
+      <div class="cus-contact-row">
+        <div class="cus-contact-text-col">
+          <div class="discover-text-col">
+            <h2> {{ section.settings.contact_info_heading }} </h2>
+            <div class="discover-contact-list">
+              <ul>
+                {% if section.settings.location_address != blank %}
+                <li>
+                  <h4>
+                    {{ section.settings.location_text }}
+                  </h4>
+                  <span>{{ section.settings.location_address }}</span>
+                </li>
+                {% endif %}
+                {% if section.settings.phone_number != blank %}
+                <li>
+                  <h4>
+                   {{ section.settings.email_text }}
+                  </h4>
+                  <span><a href="mailto:{{ section.settings.email_address }}"> {{ section.settings.email_address }}</a></span>
+                </li>
+                {% endif %}
+                {% if section.settings.phone_number != blank %}
+                <li>
+                  <h4>
+                    {{ section.settings.phone_text }}
+                  </h4>
+                  <span><a href="tel:{{ section.settings.phone_number }}"> {{ section.settings.phone_number }} </a></span>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cus-contact-img-col">
+          <div class="discover-col-img">
+            {% if section.settings.image != blank %}
+            <img loading="lazy" alt="{{ section.settings.image.alt }}" src="{{ section.settings.image | img_url : "master" }}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% schema %}
+{
+    "name" : "Contact Details",
+    "settings" :
+    [
+                {
+                    "type": "text",
+                    "id": "contact_info_heading",
+                    "label": "Heading",
+                    "default": "Contact Us"
+                },
+                {
+                    "type": "text",
+                    "id": "location_text",
+                    "label": "Text",
+                    "default": "Location"
+                },
+                {
+                    "type": "text",
+                    "id": "location_address",
+                    "label": "Address",
+                    "default": "29003 Avenue Sherman, Valencia, CA 91355"
+                },
+                {
+                    "type": "text",
+                    "id": "email_text",
+                    "label": "Text",
+                    "default": "Email US"
+                },
+                {
+                    "type": "text",
+                    "id": "email_address",
+                    "label": "Email Address",
+                    "default": "info@nitrileglovesmd.com"
+                },
+                {
+                    "type": "text",
+                    "id": "phone_text",
+                    "label": "Text",
+                    "default": "Call US"
+                },
+                {
+                    "type": "text",
+                    "id": "phone_number",
+                    "label": "Phone Number",
+                    "default": "855.773.1650"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+               
+    ]
+}
+{% endschema %}

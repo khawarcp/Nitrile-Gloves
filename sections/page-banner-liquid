@@ -1,0 +1,28 @@
+<section class="home-banner shop-page-banner" loading="lazy" style="background-image: url('{{ section.settings.background_image | img_url : 'master' }}')">
+    <div class="page-width">
+      <div class="shop-content">
+          <h1> {{ page.title }} </h1>
+          </div>
+      </div>
+  </section>
+
+  {% schema %}
+  {
+    "name": "Banner",
+    "settings": 
+    [
+       {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+       }
+    ],
+    "presets" :
+    [
+       {
+            "name" : "Banner",
+            "category" : "Custom Sections"
+       }
+    ]
+  }
+{% endschema %}
