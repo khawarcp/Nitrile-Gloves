@@ -1307,3 +1307,27 @@ h2.product-recommendations__heading.h2 {
 .social-icons ul li:last-child a {
     margin-bottom: 0px;
 }
+.home-products-container:nth-child(even) {
+    background-color: #1C1C53;
+}
+
+.home-products-container:nth-child(even) .home-product-content h3 {
+    color: #fff;
+}
+
+.home-products-container:nth-child(even) .home-product-row .home-product-content ul li {
+    color: #fff;
+}
+
+.home-products-container:nth-child(even) .home-product-row .home-product-content h4 {
+    color: #fff;
+}
+
+.home-products-container:nth-child(even) .home-product-row .home-product-content h4 span {
+    color: #fff;
+}
+
+.home-products-container:nth-child(even) .home-product-row .home-product-content .home-product-btn a {
+    background-color: #fff;
+    color: #000;
+}
