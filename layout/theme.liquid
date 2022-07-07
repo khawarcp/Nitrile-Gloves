@@ -231,7 +231,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% if template contains 'index' or template contains 'collection' or template contains 'product' or request.page_tage == 'about' %}
+    {% if template contains 'index' or template contains 'collection' or template contains 'product' or template.suffix contains 'about' %}
     {% section 'index-newsletter-section' %}
     {% endif %}
 
