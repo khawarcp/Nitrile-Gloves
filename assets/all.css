@@ -1236,3 +1236,29 @@ quantity-input.quantity button svg path {
   border: 1px solid #ccc;
   border-top: none;
 }
+section.description-reviews-sec {
+    background-color: #1A2B56;
+    margin: 50px 0px;
+}
+
+button.tablinks {
+    background-color: #EAEAEA;
+}
+
+.tab {
+    background-color: #fff;
+    border: 0px;
+}
+
+.tab button.active {
+    background-color: #1A2B56;
+    color: #FFFFFF;
+}
+
+.tabcontent {
+    border: 0px;
+}
+
+button.tablinks {
+    padding: 15px 30px;
+}
