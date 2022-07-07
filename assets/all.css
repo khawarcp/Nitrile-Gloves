@@ -1040,3 +1040,45 @@ quantity-input.quantity button svg path {
     fill: #fff;
     opacity: 1;
 }
+.product-form__input.product-form__quantity label {
+    color: #000000;
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.product-form__input.product-form__quantity {
+    display: flex;
+    align-items: center;
+}
+
+input#Quantity-template--14990704902244__main {}
+
+quantity-input.quantity input {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+quantity-input.quantity {
+    border: 1px solid #B1B1B1;
+}
+
+quantity-input.quantity button {
+    background-color: #D60912 !important;
+    /* border: 1px solid #910000; */
+    /* border: 0px !important; */
+    opacity: 1;
+    box-shadow: none !important;
+    margin: 0px;
+}
+
+quantity-input.quantity button svg path {
+    fill: #fff;
+    opacity: 1;
+}
+
+.product__info-wrapper.grid__item .product__title h1 {
+    font-size: 30px;
+}
