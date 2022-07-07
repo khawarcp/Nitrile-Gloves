@@ -838,3 +838,45 @@ footer .form__message {
 .discover-contact-list ul li:last-child {
     margin-bottom: 0px;
 }
+.cus-contact-sec {
+    padding: 80px 0px;
+}
+
+.cus-contact-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cus-contact-img-col {
+    padding: 0px 0px 0px 100px;
+    width: 65%;
+}
+
+.cus-contact-text-col {
+    width: 35%;
+}
+
+.discover-contact-list ul li h4 {
+    margin-bottom: 0;
+}
+
+.discover-contact-list {
+    max-width: 330px;
+}
+
+.discover-contact-list ul li span,.discover-contact-list ul li a {
+    text-decoration: underline;
+    color: #333333;
+}
+
+.discover-contact-list ul li {
+    margin-bottom: 30px;
+}
+
+.discover-contact-list ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.home-banner.shop-page-banner h1 {
+    text-transform: uppercase;
+}
