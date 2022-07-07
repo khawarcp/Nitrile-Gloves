@@ -12,7 +12,7 @@
             <input type="text" name="contact[last_name]" value="{% if form.lastt_name %}{{ form.lastt_name }}{% endif %}" size="40" placeholder="Last Name">
           </div>
           <div class="cus-input-container">
-            <input type="email" name="Email" value="" size="40" placeholder="Your Email" id="ContactForm-email" name="contact[email]" autocapitalize="off"  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"             aria-required="true"
+            <input type="email" size="40" placeholder="Your Email" id="ContactForm-email" name="contact[email]" autocapitalize="off"  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"             aria-required="true"
             {% if form.errors contains 'email' %}
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
@@ -45,7 +45,7 @@
 
 
 
-
+{% comment %}
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
@@ -139,6 +139,7 @@
     {%- endform -%}
   </div>
 </div>
+{% endcomment %}
 
 {% schema %}
 {
