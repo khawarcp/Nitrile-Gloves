@@ -47,4 +47,27 @@ $('.testimonials-sec .owl-carousel').owlCarousel({
         }
     }
 })
+$('.why-buy-slider-content .owl-carousel').owlCarousel({
+    loop: true,
+    margin: 15,
+    dots: false,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 2000,
+    smartSpeed: 800,
+    thumbs: false,
+    navText: ["<img src='https://cdn.shopify.com/s/files/1/0590/1719/9716/files/nav-arrow.png?v=1657109825'>","<img src='https://cdn.shopify.com/s/files/1/0590/1719/9716/files/nav-arrow.png?v=1657109825'>"],
+    items: 3,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
 });
