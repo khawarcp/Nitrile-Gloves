@@ -758,3 +758,34 @@ footer .form__message {
 .why-slider-text p {
     color: rgb(0 0 0 / 60%);
 }
+.why-buy-slider-content .owl-nav {
+    position: absolute;
+    left: 0px;
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 15px;
+    right: 0px;
+    height: 0px;
+    top: 250px;
+}
+
+.why-buy-slider-content .owl-carousel {
+    position: inherit;
+}
+
+.why-buy-slider-content .owl-nav button.owl-prev {
+    transform: rotate(180deg);
+    margin-right: 15px;
+}
+
+.why-buy-slider-content .owl-nav button img {
+    filter: grayscale(100%) invert(1);
+}
+
+.why-buy-slider-text-width h3 {
+    padding-bottom: 45px;
+}
+
+.why-buy-slider-content .owl-nav button:hover img {
+    filter: brightness(100%) invert(0);
+}
