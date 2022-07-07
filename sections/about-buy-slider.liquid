@@ -3,41 +3,26 @@
     <div class="why-buy-slider-row">
       <div class="why-buy-slider-text-col">
         <div class="why-buy-slider-text-width">
-          <h3>Why Buy From NitrileGlovesMD.com?</h3>
+          <h3> {{ section.settings.title }} </h3>
         </div>
       </div>
       <div class="why-buy-slider-content">
         <div class="owl-carousel">
-          <div class="item">
-            <div class="why-slider-img">
-              <img src="https://cdn.shopify.com/s/files/1/0590/1719/9716/files/fair-prices-img.png?v=1657186785">
+            {% for block in section.block %}             
+            <div class="item">
+              <div class="why-slider-img">
+                {% if block.settings.image != blank %}
+                    <img loading="lazy" alt="{{ block.settings.image.alt }}" src="{{ block.settings.image | img_url : "master" }}">
+                {% else %}
+                    {{ 'image' | placeholder_svg_tag }}
+                {% endif %}
+              </div>
+              <div class="why-slider-text">
+                <h3> {{ block.settings.title }} </h3>
+                <p> {{ block.settings.description }} </p>
+              </div>
             </div>
-            <div class="why-slider-text">
-              <h3>Fair Prices</h3>
-              <p>While global demand has gone up,
-                our desire to provide a high-quality product at a fair price 
-                has stayed the same. NitrileGlovesMD.com gloves usually cost 
-                10%-35% less than the competition</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="why-slider-img">
-              <img src="https://cdn.shopify.com/s/files/1/0590/1719/9716/files/fair-prices-img.png?v=1657186785">
-            </div>
-            <div class="why-slider-text">
-              <h3>IN STOCK 24/7</h3>
-              <p>NitrileGlovesMD.com imports millions of boxes each month and can ship immediately.</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="why-slider-img">
-              <img src="https://cdn.shopify.com/s/files/1/0590/1719/9716/files/fair-prices-img.png?v=1657186785">
-            </div>
-            <div class="why-slider-text">
-              <h3>TOP QUALITY</h3>
-              <p>NitrileGlovesMD.com gloves are all FDA/510 (k) approved and compliant with government and healthcare standards.</p>
-            </div>
-          </div>
+            {% endfor %}
         </div>
       </div>
     </div>
@@ -52,8 +37,37 @@
     "name": "Buy Slider",
     "settings" :
     [
-    
-    
+       {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Why Buy From NitrileGlovesMD.com?"
+       }
+    ],
+    "blocks":
+    [
+        {
+            "name" : "Features",
+            "type" : "feature",
+            "settings":
+            [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        }
     ]
 }
 {% endschema %}
