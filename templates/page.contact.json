@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1657197446108cbe3a": {
+      "type": "page-banner",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/shop-banner.png"
+      }
+    },
     "main": {
       "type": "contact-details",
       "settings": {
@@ -25,6 +31,7 @@
     }
   },
   "order": [
+    "1657197446108cbe3a",
     "main",
     "form"
   ]
