@@ -986,3 +986,7 @@ footer .form__message {
     background-color: #D60912;
     border: 0px;
 }
+.input-container-submit {
+    width: 100%;
+    text-align: right;
+}
