@@ -1284,3 +1284,26 @@ section#MainProduct-template--14990704902244__main {
 h2.product-recommendations__heading.h2 {
     text-align: center;
 }
+.social-icons ul {
+    /* display: flex; */
+}
+
+.social-icons {
+    /* transform: rotate(90deg); */
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    bottom: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons ul li a {
+    writing-mode: vertical-rl;
+    margin-bottom: 20px;
+}
+
+.social-icons ul li:last-child a {
+    margin-bottom: 0px;
+}
