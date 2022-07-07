@@ -1331,7 +1331,8 @@ h2.product-recommendations__heading.h2 {
     background-color: #fff;
     color: #000;
 }
-header.header {
+@media screen and (max-width:767px){
+  header.header {
     /* display: block; */
 }
 
@@ -1467,4 +1468,5 @@ h2, .h2 {}
 
 .newsletter-col {
     margin-bottom: 30px;
+}
 }
