@@ -25,7 +25,39 @@
     },
     "buy-slider": {
       "type": "about-buy-slider",
+      "blocks": {
+        "4ddd6b9e-42f2-4565-8de6-649699a54667": {
+          "type": "feature",
+          "settings": {
+            "title": "Fair Prices",
+            "description": "While global demand has gone up, our desire to provide a high-quality product at a fair price has stayed the same. NitrileGlovesMD.com gloves usually cost 10%-35% less than the competition",
+            "image": "shopify:\/\/shop_images\/fair-prices-img.png"
+          }
+        },
+        "896b3bbb-d9cb-4166-8158-21b218e41f5f": {
+          "type": "feature",
+          "settings": {
+            "title": "IN STOCK 24\/7",
+            "description": "NitrileGlovesMD.com imports millions of boxes each month and can ship immediately.",
+            "image": "shopify:\/\/shop_images\/fair-prices-img.png"
+          }
+        },
+        "a53a234b-b038-4c7f-9f5b-1f5f6881ce36": {
+          "type": "feature",
+          "settings": {
+            "title": "TOP QUALITY",
+            "description": "NitrileGlovesMD.com gloves are all FDA\/510 (k) approved and compliant with government and healthcare standards.",
+            "image": "shopify:\/\/shop_images\/fair-prices-img.png"
+          }
+        }
+      },
+      "block_order": [
+        "4ddd6b9e-42f2-4565-8de6-649699a54667",
+        "896b3bbb-d9cb-4166-8158-21b218e41f5f",
+        "a53a234b-b038-4c7f-9f5b-1f5f6881ce36"
+      ],
       "settings": {
+        "title": "Why Buy From NitrileGlovesMD.com?"
       }
     }
   },
