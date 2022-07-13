@@ -1590,4 +1590,66 @@ h2, .h2 {}
 .newsletter-col {
     margin-bottom: 30px;
 }
+.home-banner.shop-page-banner h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.our-purpose-row {
+    flex-direction: column;
+}
+
+.our-purpose-text-col {
+    width: 100%;
+}
+
+.our-purpose-img-col {
+    width: 100%;
+}
+
+.our-purpose:before {
+    width: 100%;
+    height: 530px;
+}
+
+.glove-shortage-row {
+    flex-direction: column;
+}
+
+.glove-shortage-list-col {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.glove-shortage-list-col.glove-shortage-list-img-col {
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.why-buy-slider-sec {
+    padding: 60px 0px 0px;
+}
+
+.why-buy-slider-row {
+    flex-direction: column;
+}
+
+.why-buy-slider-text-col {
+    width: 100%;
+}
+
+.why-buy-slider-content {
+    width: 100%;
+}
+
+.why-buy-slider-content .owl-nav {
+    top: auto;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}  
 }
