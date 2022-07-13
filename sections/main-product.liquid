@@ -242,7 +242,7 @@
             </div>
           {%- when 'features' -%}
           <ul>
-            {% assign features = card_product.metafields.custom.features.value %}
+            {% assign features = product.metafields.custom.features.value %}
             {% for feature in features %}
             <li> {{ feature }} </li>
             {% endfor %}
