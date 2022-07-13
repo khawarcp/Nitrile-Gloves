@@ -647,6 +647,7 @@ footer .form__message {
 .our-purpose {
     position: relative;
     padding: 60px 0px;
+    margin-top: 60px;
 }
 
 .our-purpose::before {
