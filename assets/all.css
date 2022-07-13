@@ -1407,6 +1407,43 @@ span.caption-large.light {
     font-size: 14px !important;
     font-family: 'Lora' !important;
 }
+quantity-input.quantity button {
+    position: absolute;
+    right: 0px;
+    height: 25px;
+    top: -1px;
+    width: 40px;
+    right: 0px;
+    border-bottom: 1px solid #900000;
+}
+
+quantity-input.quantity {
+    height: 50px;
+    position: relative;
+}
+
+quantity-input.quantity button[name="minus"] {
+    bottom: 0px;
+    top: auto;
+    transform: rotate(180deg);
+    /* left: 0px; */
+    /* right: auto; */
+    right: -1px;
+}
+
+.quantity:after {
+    opacity: 0;
+}
+
+quantity-input.quantity input {
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
 @media screen and (max-width:1199px){
   .home-banner.shop-page-banner {
     height: 290px;
