@@ -1762,5 +1762,32 @@ section.description-reviews-sec .tab .page-width {
 .recommendation-price span.price-item.price-item--regular {
     font-size: 16px;
     margin-bottom: 5px;
+}
+.cus-contact-sec {
+    padding: 60px 0px;
+}
+
+.cus-contact-row {
+    flex-direction: column;
+}
+
+.cus-contact-row {}
+
+.cus-contact-text-col {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cus-contact-img-col {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.cus-input-container {
+    width: 48%;
+}
+
+.cus-input-container:nth-child(5) {
+    width: 100%;
 }  
 }
