@@ -1546,7 +1546,8 @@ h2, .h2 {
 }
 body.gradient.template-product {
     margin-top: 0px;
-}  
+}
+  
 }
 @media screen and (max-width:767px){
   header.header {
@@ -1747,5 +1748,19 @@ h2, .h2 {}
     width: 100%;
     height: auto;
     position: relative;
+}
+section.description-reviews-sec {
+    margin: 20px 0px;
+}
+
+section.description-reviews-sec .tab .page-width {
+    padding: 0px;
+}
+
+.recommendation-price__shop {flex-direction: column;}
+
+.recommendation-price span.price-item.price-item--regular {
+    font-size: 16px;
+    margin-bottom: 5px;
 }  
 }
