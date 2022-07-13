@@ -660,6 +660,7 @@ footer .form__message {
     background-color: #1A2B56;
     z-index: -1;
     height: 380px;
+    border-radius: 0px 0px 225px 0px;
 }
 
 .our-purpose-text-width h3 {
