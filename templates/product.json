@@ -26,12 +26,6 @@
             "picker_type": "button"
           }
         },
-        "45bb3df3-85b2-49c1-858f-185f4997fa51": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign features = card_product.metafields.custom.features.value %}\n        {% for feature in features %}\n        <li> {{ feature }} <\/li>\n        {% endfor %}"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -42,6 +36,11 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "3ae97fc4-bc85-425c-94dd-a04c9385cc9d": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -49,9 +48,9 @@
         "caption",
         "price",
         "variant_picker",
-        "45bb3df3-85b2-49c1-858f-185f4997fa51",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "3ae97fc4-bc85-425c-94dd-a04c9385cc9d"
       ],
       "settings": {
         "enable_sticky_info": false,
