@@ -241,12 +241,15 @@
               {%- endform -%}
             </div>
           {%- when 'features' -%}
+        <div class="home-product-content">
           <ul>
             {% assign features = product.metafields.custom.features.value %}
             {% for feature in features %}
             <li> {{ feature }} </li>
             {% endfor %}
           </ul>
+        </div>
+          
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
