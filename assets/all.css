@@ -1444,6 +1444,11 @@ quantity-input.quantity input {
     left: 0px;
     right: 0px;
 }
+@media screen and (min-width:1800px){
+  .home-banner:before {
+    width: 62%;
+}
+}
 @media screen and (max-width:1199px){
   .home-banner.shop-page-banner {
     height: 290px;
