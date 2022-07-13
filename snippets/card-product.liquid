@@ -236,7 +236,29 @@
           </div>
         </div>
       </div>
-     
+      <div class="card__content">
+        <div class="card__information">
+          <h3 class="card__heading{% if settings.card_style == 'standard' %} h5{% endif %}">
+            <a role="link" aria-disabled="true" class="full-unstyled-link">
+              {{ 'onboarding.product_title' | t }}
+            </a>
+          </h3>
+          <div class="card-information">
+            {%- if show_vendor -%}
+              <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+              <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
+            {%- endif -%}
+            <div class="recommendation-price">
+              {% render 'price' %}
+            </div>
+            <div class="recommendation-shop">
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                Shop Now
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 {%- endif -%}
