@@ -1544,6 +1544,9 @@ h2, .h2 {
 .product-form__buttons button.product-form__submit {
     margin-right: 10px;
     font-size: 13px;
+}
+body.gradient.template-product {
+    margin-top: 0px;
 }  
 }
 @media screen and (max-width:767px){
