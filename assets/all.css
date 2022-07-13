@@ -1520,6 +1520,19 @@ h2, .h2 {
 
 .why-buy-slider-content .owl-nav {
     top: 200px;
+}
+.product__info-wrapper.grid__item .product__title h1 {
+    font-size: 24px;
+}
+
+.product__info-wrapper.grid__item h4 {
+    font-size: 1.8rem;
+}
+
+.product__info-wrapper.grid__item h4 span.price-item.price-item--regular {
+    letter-spacing: 0px;
+    line-height: initial;
+    /* font-size: 1.8rem; */
 }  
 }
 @media screen and (max-width:767px){
