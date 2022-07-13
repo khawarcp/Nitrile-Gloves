@@ -1459,6 +1459,35 @@ quantity-input.quantity input {
 .glove-shortage-list-col ul li {
     color: rgb(0 0 0 / 60%);
 }
+.template-collection li.grid__item.home-products-container:nth-child(even) {
+    background-color: #F4F4F4;
+}
+
+.template-collectoion .home-products-container:nth-child(even) .home-product-content h3 {
+    color: #000000;
+}
+
+.template-collection .home-products-container:nth-child(even) .home-product-content h3 {
+    color: #000;
+}
+
+.template-collection .home-products-container:nth-child(even) .home-product-row .home-product-content h4 {
+    color: #D60912;
+}
+
+.template-collection .home-products-container:nth-child(even) .home-product-row .home-product-content h4 span {
+    color: #D60912;
+}
+
+.template-collection .home-products-container:nth-child(even) .home-product-row .home-product-content ul li {
+    color: rgb(0 0 0 / 50%);
+}
+
+.template-collection .home-products-container:nth-child(even) .home-product-row .home-product-content .home-product-btn a {
+    background-color: #000000;
+    color: #fff;
+}
+
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
