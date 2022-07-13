@@ -1444,6 +1444,14 @@ quantity-input.quantity input {
     left: 0px;
     right: 0px;
 }
+.glove-shortage-list-col.glove-shortage-list-img-col {
+    margin-top: 115px;
+}
+
+.glove-shortage-img img {
+    height: 400px;
+    object-fit: cover;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
