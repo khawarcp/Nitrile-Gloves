@@ -1343,6 +1343,81 @@ h2.product-recommendations__heading.h2 {
 .header__heading-link {
     width: auto;
 }
+.contact-info-col ul li a {
+}
+
+.contact-info-col ul {
+    flex-wrap: wrap;
+}
+
+.contact-info-col ul li {
+    width: 100%;
+}
+
+.contact-info-col ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.home-banner {
+    padding: 60px 0px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.home-text-content h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.home-text-content p {
+    margin-bottom: 25px;
+}
+
+.custom-site-btn {
+    font-size: 14px;
+}
+
+.header-wrapper {
+    padding-top: 0px;
+}
+
+.social-icons {
+    bottom: 60px;
+}
+
+.our-logos .item img {
+    width: 90%;
+}
+
+h3, .h3 {
+    font-size: 24px;
+}
+
+.price__regular .price-item--regular {
+    font-size: 20px;
+}
+
+h4, .h4 {
+}
+
+.home-product-content h4 {
+    font-size: 20px;
+}
+
+.home-product-content ul li {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+h2, .h2 {
+    font-size: 32px;
+}
+  
 }
 @media screen and (max-width:767px){
   header.header {
