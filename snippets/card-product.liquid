@@ -138,14 +138,15 @@
             {%- endif -%}
 
             
-            
-            <div class="recommendation-price">
-              {% render 'price', product: card_product, price_class: '' %}
-            </div>
-            <div class="recommendation-shop">
-              <a href="{{ card_product.url }}" class="full-unstyled-link">
-                 Shop Now
-              </a>
+            <div class="recommendation-price__shop">
+              <div class="recommendation-price">
+                {% render 'price', product: card_product, price_class: '' %}
+              </div>
+              <div class="recommendation-shop">
+                <a href="{{ card_product.url }}" class="full-unstyled-link">
+                  Shop Now
+                </a>
+              </div>
             </div>
             
           </div>
