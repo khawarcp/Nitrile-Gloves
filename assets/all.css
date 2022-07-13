@@ -1536,9 +1536,8 @@ h2, .h2 {
 }
 .shopify-payment-button__button {
     margin: 0px;
-    font-size: 13px;
-    /* padding: 16px 0px; */
-    font-family: 'Lora';
+    font-size: 13px !important;
+    font-family: Lora !important;
 }
 
 .product-form__buttons button.product-form__submit {
