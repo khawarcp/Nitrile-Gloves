@@ -248,13 +248,7 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
-            <div class="recommendation-price">
-              {% render 'price' %}
-            </div>
-            <div class="recommendation-shop">
-              <a href="{{ card_product.url }}" class="full-unstyled-link">
-                {{ 'products.product.shop' | t }}
-            </div>
+            {% render 'price' %}
           </div>
         </div>
       </div>
