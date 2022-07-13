@@ -1452,6 +1452,13 @@ quantity-input.quantity input {
     height: 400px;
     object-fit: cover;
 }
+.glove-shortage-list-col h3 {
+    color: #000000;
+}
+
+.glove-shortage-list-col ul li {
+    color: rgb(0 0 0 / 60%);
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
