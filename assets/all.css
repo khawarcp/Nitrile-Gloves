@@ -1333,6 +1333,23 @@ h2.product-recommendations__heading.h2 {
     background-color: #fff;
     color: #000;
 }
+@media screen and (max-width:1199px){
+  .home-banner.shop-page-banner {
+    height: 290px;
+}
+
+.our-purpose-img-col {
+    top: 0px;
+}
+
+.contact-info-col ul li {
+    width: 100%;
+}
+
+.contact-info-col ul li:last-child {
+    margin-bottom: 0px;
+}
+}
 @media screen and (max-width:991px){
   nav.header__inline-menu {
     display: none;
