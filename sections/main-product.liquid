@@ -221,7 +221,7 @@
             </div>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+              <h4> ONLY {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%} PER BOX!* </h4>
             </div>
             {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
               <div class="product__tax caption rte">
@@ -515,25 +515,13 @@
       <div class="page-width">
         <div id="description" class="tabcontent" style="display:block;">
           <div class="description-content">
-            <ul>
-              <li>According to U.S. importer AmerCareRoyal and market analysts, the global demand for gloves nearly doubled in a matter of months from 300 billion pieces in 2019 to 585 billion in August 2020.</li>
-              <li>The global demand for nitrile gloves has reached 585 billion this year according to the Health Industry Distributors Association, but manufacturers are only able to produce 370 billion at current levels.</li>
-              <li>As of March 2022, the Department of Defense reports a 30-Day Stockpile Requirement for Exam Gloves of 129,484,800 but has only 10,110,000 on hand, leaving a shortfall of 119,374,800. Source: House Report 116-442, Page 156, Accompanying H.R. 6395, of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Final Report on “Supply Chain Resilience and Critical Supplies Stockpiles” March 2022.</li>
-              <li>The FDA reports ongoing shortages in Vinyl & Nitrile Exam Gloves. Source: Medical Device Shortages During the COVID-19 Public Health Emergency. February 2022.</li>
-              <li>Demand for disposable gloves will nearly triple from 2019 to 2030. Source: Disposable Gloves Market by Type (Natural Rubber Gloves, Nitrile Gloves, Vinyl Gloves, Neoprene, Polyethylene, and Others), Application (Medical and Non-Medical) and Form (Powdered and Non-Powdered): Global Opportunity Analysis and Industry Forecast, 2019–2030</li>
-            </ul>
+            {{ product.description }}
           </div>
         </div>
 
         <div id="reviews" class="tabcontent">
           <div class="description-content">
-            <ul>
-              <li>According to U.S. importer AmerCareRoyal and market analysts, the global demand for gloves nearly doubled in a matter of months from 300 billion pieces in 2019 to 585 billion in August 2020.</li>
-              <li>The global demand for nitrile gloves has reached 585 billion this year according to the Health Industry Distributors Association, but manufacturers are only able to produce 370 billion at current levels.</li>
-              <li>As of March 2022, the Department of Defense reports a 30-Day Stockpile Requirement for Exam Gloves of 129,484,800 but has only 10,110,000 on hand, leaving a shortfall of 119,374,800. Source: House Report 116-442, Page 156, Accompanying H.R. 6395, of the William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021, Final Report on “Supply Chain Resilience and Critical Supplies Stockpiles” March 2022.</li>
-              <li>The FDA reports ongoing shortages in Vinyl & Nitrile Exam Gloves. Source: Medical Device Shortages During the COVID-19 Public Health Emergency. February 2022.</li>
-              <li>Demand for disposable gloves will nearly triple from 2019 to 2030. Source: Disposable Gloves Market by Type (Natural Rubber Gloves, Nitrile Gloves, Vinyl Gloves, Neoprene, Polyethylene, and Others), Application (Medical and Non-Medical) and Form (Powdered and Non-Powdered): Global Opportunity Analysis and Industry Forecast, 2019–2030</li>
-            </ul>
+
           </div>
         </div>
       </div>
@@ -791,6 +779,18 @@
     {
       "type": "custom_liquid",
       "name": "t:sections.main-product.blocks.custom_liquid.name",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
+          "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "custom_features",
+      "name": "Custom",
       "settings": [
         {
           "type": "liquid",
