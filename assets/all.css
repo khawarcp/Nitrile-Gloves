@@ -1349,6 +1349,9 @@ h2.product-recommendations__heading.h2 {
 .contact-info-col ul li:last-child {
     margin-bottom: 0px;
 }
+.our-purpose:before {
+    height: 400px;
+}  
 }
 @media screen and (max-width:991px){
   nav.header__inline-menu {
