@@ -1333,6 +1333,20 @@ h2.product-recommendations__heading.h2 {
     background-color: #fff;
     color: #000;
 }
+.product__info-wrapper.grid__item h4 {
+    display: flex;
+    color: #D60912;
+    font-family: 'Lato';
+    font-weight: 600;
+    /* align-items: center; */
+}
+
+.product__info-wrapper.grid__item h4 span.price-item.price-item--regular {
+    font-family: 'Lato';
+    margin: 0;
+    line-height: 31.2px;
+    margin: 0px 4px;
+}
 @media screen and (max-width:1199px){
   .home-banner.shop-page-banner {
     height: 290px;
