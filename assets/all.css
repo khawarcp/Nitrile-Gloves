@@ -1348,6 +1348,61 @@ h2.product-recommendations__heading.h2 {
     line-height: 31.2px;
     margin: 0px 4px;
 }
+.recommendation-price__shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommendation-shop a {
+    background: #000000;
+    box-shadow: 8px 8px 57px #0000003d;
+    border-radius: 0 0 20px;
+    padding: 11px 20px;
+    gap: 10px;
+    font-weight: 500;
+    color: #fff;
+    width: 130px;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+span.price-item.price-item--sale.price-item--last {}
+
+.recommendation-price span.price-item.price-item--sale.price-item--last {
+    color: #121212;
+}
+
+span.price-item.price-item--regular {}
+
+.recommendation-price span.price-item.price-item--regular {
+    color: #121212;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.card__information h3 {
+    font-size: 14px;
+}
+
+.recommendation-price__shop {
+    margin-top: 0px !important;
+}
+
+.card__information h3 a {
+    color: rgb(0 0 0 / 70%);
+}
+
+.recommendation-price__shop {}
+
+.card-information>* {
+}
+
+span.caption-large.light {
+}
 @media screen and (max-width:1199px){
   .home-banner.shop-page-banner {
     height: 290px;
