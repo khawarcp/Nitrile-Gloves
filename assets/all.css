@@ -1439,7 +1439,18 @@ h4, .h4 {
 h2, .h2 {
     font-size: 32px;
 }
-  
+.our-purpose:before {
+    height: 450px;
+}
+
+.why-buy-slider-text-width h3 {
+    padding-bottom: 30px;
+    font-size: 19px;
+}
+
+.why-buy-slider-content .owl-nav {
+    top: 200px;
+}  
 }
 @media screen and (max-width:767px){
   header.header {
