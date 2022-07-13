@@ -137,7 +137,17 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: '' %}
+            
+            
+            <div class="recommendation-price">
+              {% render 'price', product: card_product, price_class: '' %}
+            </div>
+            <div class="recommendation-shop">
+              <a href="{{ card_product.url }}" class="full-unstyled-link">
+                 {{ 'products.product.shop' | t }}
+              </a>
+            </div>
+            
           </div>
         </div>
         {%- if show_quick_add -%}
