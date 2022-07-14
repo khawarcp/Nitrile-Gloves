@@ -1899,5 +1899,8 @@ section.description-reviews-sec .tab .page-width {
 .template-search,  
 .template-cart {
     margin-top: 0px;
+}
+.home-banner:before {
+    left: 10px;
 }  
 }
