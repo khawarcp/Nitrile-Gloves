@@ -1505,6 +1505,10 @@ quantity-input.quantity input {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #fff;
 }
+.cart-items thead th {
+    font-weight: 600;
+    color: #000;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
