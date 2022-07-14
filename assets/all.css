@@ -1491,7 +1491,7 @@ quantity-input.quantity input {
     margin: auto;
 }
 .product--medium .thumbnail-list {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr) !important;
 }
 
 @media screen and (min-width:1800px){
