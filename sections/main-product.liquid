@@ -181,8 +181,7 @@
                                 {% if media.preview_image.width >= 168 %}{{ media.preview_image | image_url: width: 168 }} 168w,{% endif %}
                                 {% if media.preview_image.width >= 130 %}{{ media.preview_image | image_url: width: 130 }} 130w,{% endif %}
                                 {% if media.preview_image.width >= 260 %}{{ media.preview_image | image_url: width: 260 }} 260w{% endif %}"
-                        src="{{ media | image_url: width: 84, height: 84 }}"
-                       
+                        src="{{ media | image_url: width: 84, height: 84 }}"                       
                         alt="{{ media.alt | escape }}"
                         height="200"
                         width="200"
