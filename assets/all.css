@@ -1501,6 +1501,9 @@ quantity-input.quantity input {
     margin: 0px;
     right: -1px;
 }
+input:-webkit-autofill {
+    -webkit-background-clip: text;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
