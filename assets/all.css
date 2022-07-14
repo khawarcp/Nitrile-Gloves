@@ -1902,5 +1902,12 @@ section.description-reviews-sec .tab .page-width {
 }
 .home-banner:before {
     left: 10px;
+}
+.glove-shortage-img img {
+    height: auto;
+}
+
+.why-slider-text {
+    margin-bottom: 30px;
 }  
 }
