@@ -1510,7 +1510,8 @@ quantity-input.quantity input {
     width: 62%;
 }
 .home-banner.shop-page-banner{
-  width:90%;
+  width:99%;
+  height:49vh;
 }
 }
 @media screen and (max-width:1199px){
