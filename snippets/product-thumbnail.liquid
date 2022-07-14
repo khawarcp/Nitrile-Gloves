@@ -37,8 +37,7 @@
           {% if media.preview_image.width >= 1646 %}{{ media.preview_image | image_url: width: 1646 }} 1646w,{% endif %}
           {% if media.preview_image.width >= 1946 %}{{ media.preview_image | image_url: width: 1946 }} 1946w,{% endif %}
           {{ media.preview_image | image_url }} {{ media.preview_image.width }}w"
-        src="{{ media | image_url: width: 1946 }}"
-       
+        src="{{ media | image_url: width: 1946 }}"       
         {% unless lazy_load == false %}loading="lazy"{% endunless %}
         width="973"
         height="{{ 973 | divided_by: media.preview_image.aspect_ratio | ceil }}"
