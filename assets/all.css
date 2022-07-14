@@ -1653,7 +1653,9 @@ h2, .h2 {
 body.gradient.template-product {
     margin-top: 0px;
 }
-  
+.why-slider-text p {
+    min-height: 192px;
+}  
 }
 @media screen and (max-width:767px){
   header.header {
