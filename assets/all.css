@@ -1512,6 +1512,7 @@ quantity-input.quantity input {
 .home-banner.shop-page-banner{
   width:99%;
   height:49vh;
+  
 }
 }
 @media screen and (max-width:1199px){
@@ -1532,7 +1533,10 @@ quantity-input.quantity input {
 }
 .our-purpose:before {
     height: 400px;
-}  
+}
+.why-slider-text p{
+  min-height: 200px;
+}
 }
 @media screen and (max-width:991px){
   nav.header__inline-menu {
