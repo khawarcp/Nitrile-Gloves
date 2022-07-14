@@ -1490,6 +1490,9 @@ quantity-input.quantity input {
 .page-width.product--thumbnail {
     margin: auto;
 }
+.product--medium .thumbnail-list {
+    grid-template-columns: repeat(4,1fr);
+}
 
 @media screen and (min-width:1800px){
   .home-banner:before {
