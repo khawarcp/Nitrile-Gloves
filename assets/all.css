@@ -1487,6 +1487,9 @@ quantity-input.quantity input {
     background-color: #000000;
     color: #fff;
 }
+.page-width.product--thumbnail {
+    margin: auto;
+}
 
 @media screen and (min-width:1800px){
   .home-banner:before {
