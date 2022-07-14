@@ -1496,6 +1496,10 @@ quantity-input.quantity input {
 .template-cart {
     margin-top: 88px;
 }
+.template-cart .quantity__button:last-child {
+    margin: 0px;
+    right: -1px;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
