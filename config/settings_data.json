@@ -97,7 +97,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "sections": {
@@ -206,6 +206,12 @@
           "email_address": "Joe@winkelerandassociates.com",
           "office_text": "Office",
           "office_address": "981 US 98 East, Suite 3-164 Destin, Florida 32541"
+        }
+      },
+      "index-newsletter-section": {
+        "type": "index-newsletter-section",
+        "settings": {
+          "heading": "Sign Up For Our Newsletter For Industry Insights & Special Discounts"
         }
       }
     },
