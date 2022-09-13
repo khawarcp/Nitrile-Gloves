@@ -1509,6 +1509,15 @@ quantity-input.quantity input {
     font-weight: 600;
     color: #000;
 }
+.page-width.page-width--narrow {
+    margin-top: 100px;
+    max-width: 1000px;
+}
+
+.page-width.page-width--narrow h1 {
+    text-align: center;
+    font-weight: 700;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
