@@ -1518,6 +1518,25 @@ quantity-input.quantity input {
     text-align: center;
     font-weight: 700;
 }
+.terms-privacy ul {
+    display: flex;
+}
+
+.copywrite-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-privacy ul li a {
+    margin: 0;
+    color: #ffffffb3;
+    font-size: 14px;
+}
+
+.terms-privacy ul li {
+    color: #fff;
+    margin: 0px 7px;
+}
 @media screen and (min-width:1800px){
   .home-banner:before {
     width: 62%;
